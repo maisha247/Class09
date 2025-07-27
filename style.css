@@ -1,0 +1,65 @@
+/* All common CSS start  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bannerPart{
+    padding: 40px 0;
+    background: #FFF8F3;
+    
+}
+
+
+/* All common CSS end  */
+.container{
+    width: 1140px;
+    padding: 10px 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+ .list ul li a{
+    color: black;
+    font-size: 25px;
+    font-family: "Funnel Display", sans-serif;
+    font-weight: 200;
+    padding: 0 40px;
+    margin: 0 20px;
+    text-transform: uppercase;
+    transition: .4s;
+ }
+
+ .list ul{
+    display: flex;
+ }
+
+ #button{
+    color: white;
+    font-size: 25px;
+    background: rgb(245, 164, 14);
+    padding: 25px 38px;
+    font-weight: 200px;
+    border-radius: 5px;
+ }
+
+ .list ul li a:hover{
+    color: tomato;
+ }
+
+ #button:hover{
+    color: black;
+ }
